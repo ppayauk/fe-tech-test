@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+
+import classNames from "classnames";
+import usePpayaQuery from "./hooks/use-ppaya-query";
+
+import { RefreshIcon, ArrowLeftIcon } from "@heroicons/react/solid";
 
 function App() {
+  const { loading, data, fetchMore, refetch, hasMoreItems } =
+    usePpayaQuery("dummy-query");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex flex-col items-center px-4">
+      <span className="text-3xl font-bold underline text-amber-600 mt-6">
+        This project is using TailwindCSS
+      </span>
     </div>
   );
 }

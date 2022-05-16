@@ -1,0 +1,424 @@
+{
+  "data": {
+    "invitationToTenderList": {
+      "invitationsToTender": [
+        {
+          "id": "b7985769-0f35-4998-9412-577f962fa1eb",
+          "generator": {
+            "name": "gen without number",
+            "ppayaBrokerFee": 0,
+            "__typename": "Generator"
+          },
+          "tenderName": "no broker fee",
+          "tender": {
+            "id": "86cd5e8a-5828-11ec-b348-535012267fb7",
+            "name": "no broker fee",
+            "status": "ACTIVE",
+            "startDate": "2021-12-24",
+            "endDate": "2022-06-30",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2021-12-24",
+                "endDate": "2022-06-30",
+                "priceType": "FIXED_AVERAGED",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "81a613c1-5828-11ec-9b67-a187c5e4b37a",
+                "name": "test",
+                "capacity": 2.0,
+                "technology": "SOLAR",
+                "location": "test",
+                "mpan": null,
+                "msid": "",
+                "spv": { "name": "test", "__typename": "SPV" },
+                "voltage": 22,
+                "rocBand": null,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["SOLAR"],
+          "totalCapacity": 2.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "9fd53115-96ba-461f-a475-4da3bdf50001",
+          "generator": {
+            "name": "PPAYA LIMITED",
+            "ppayaBrokerFee": null,
+            "__typename": "Generator"
+          },
+          "tenderName": "no broker fee 2",
+          "tender": {
+            "id": "22f6ffa7-58f2-11ec-9bf5-89c2b986c40e",
+            "name": "no broker fee 2",
+            "status": "ACTIVE",
+            "startDate": "2021-12-31",
+            "endDate": "2022-06-30",
+            "indicativeDeadline": "2022-01-06T13:00:00+00:00",
+            "periods": [
+              {
+                "startDate": "2021-12-31",
+                "endDate": "2022-03-31",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              },
+              {
+                "startDate": "2022-04-01",
+                "endDate": "2022-06-30",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "ecf419f5-ba34-11eb-a503-a12ba1f95e2b",
+                "name": "My First Site",
+                "capacity": 3.0,
+                "technology": "SOLAR",
+                "location": "My address",
+                "mpan": "1111122222333",
+                "msid": null,
+                "spv": null,
+                "voltage": 10,
+                "rocBand": 1.5,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["SOLAR"],
+          "totalCapacity": 3.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "7c0b0968-8bd3-4bff-b9e1-855fa15a3018",
+          "generator": {
+            "name": "PPAYA LIMITED",
+            "ppayaBrokerFee": null,
+            "__typename": "Generator"
+          },
+          "tenderName": "Multiple Site",
+          "tender": {
+            "id": "c671adbe-5c1b-11ec-8c64-bbbfc27dd2a6",
+            "name": "Multiple Site",
+            "status": "ACTIVE",
+            "startDate": "2022-03-01",
+            "endDate": "2023-02-28",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2022-03-01",
+                "endDate": "2022-03-31",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              },
+              {
+                "startDate": "2022-04-01",
+                "endDate": "2022-09-30",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              },
+              {
+                "startDate": "2022-10-01",
+                "endDate": "2023-02-28",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "ecf419f5-ba34-11eb-a503-a12ba1f95e2b",
+                "name": "My First Site",
+                "capacity": 3.0,
+                "technology": "SOLAR",
+                "location": "My address",
+                "mpan": "1111122222333",
+                "msid": null,
+                "spv": null,
+                "voltage": 10,
+                "rocBand": 1.5,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": "FIXED",
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["SOLAR"],
+          "totalCapacity": 3.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "78d5ee2b-e53e-44dc-aea9-4e5184957749",
+          "generator": {
+            "name": "PPAYA Test",
+            "ppayaBrokerFee": 111,
+            "__typename": "Generator"
+          },
+          "tenderName": "MV tender 1",
+          "tender": {
+            "id": "ad744a0d-a139-11ec-9d4a-9553fb9530d9",
+            "name": "MV tender 1",
+            "status": "ACTIVE",
+            "startDate": "2022-03-19",
+            "endDate": "2022-09-30",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2022-03-19",
+                "endDate": "2022-09-30",
+                "priceType": "FIXED_AVERAGED",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "028b9399-d8e2-11eb-b5b2-e36ef07de8de",
+                "name": "Hendy Wind",
+                "capacity": 14.0,
+                "technology": "WIND",
+                "location": "Penybont",
+                "mpan": "2100041707899",
+                "msid": null,
+                "spv": {
+                  "name": "HENDY WIND FARM LIMITED",
+                  "__typename": "SPV"
+                },
+                "voltage": 66,
+                "rocBand": 0.9,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["WIND"],
+          "totalCapacity": 14.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "c5f97e5f-b277-4d31-ae8a-58f6673253d5",
+          "generator": {
+            "name": "PPAYA Test",
+            "ppayaBrokerFee": 111,
+            "__typename": "Generator"
+          },
+          "tenderName": "Lots of offers",
+          "tender": {
+            "id": "649598ec-aead-11ec-888d-8f9d1179532c",
+            "name": "Lots of offers",
+            "status": "ACTIVE",
+            "startDate": "2022-04-05",
+            "endDate": "2022-10-31",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2022-04-05",
+                "endDate": "2022-10-31",
+                "priceType": "FIXED_AVERAGED",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "028b9399-d8e2-11eb-b5b2-e36ef07de8de",
+                "name": "Hendy Wind",
+                "capacity": 14.0,
+                "technology": "WIND",
+                "location": "Penybont",
+                "mpan": "2100041707899",
+                "msid": null,
+                "spv": {
+                  "name": "HENDY WIND FARM LIMITED",
+                  "__typename": "SPV"
+                },
+                "voltage": 66,
+                "rocBand": 0.9,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["WIND"],
+          "totalCapacity": 14.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "5eb6f5b8-0ec7-4adb-b451-152ec0d86c49",
+          "generator": {
+            "name": "PPAYA Test",
+            "ppayaBrokerFee": 111,
+            "__typename": "Generator"
+          },
+          "tenderName": "MVVV 1",
+          "tender": {
+            "id": "80a2f8a2-c705-11ec-957f-1d89fb6ab875",
+            "name": "MVVV 1",
+            "status": "ACTIVE",
+            "startDate": "2022-05-06",
+            "endDate": "2022-11-30",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2022-05-06",
+                "endDate": "2022-11-30",
+                "priceType": "FIXED_AVERAGED",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "028b9399-d8e2-11eb-b5b2-e36ef07de8de",
+                "name": "Hendy Wind",
+                "capacity": 14.0,
+                "technology": "WIND",
+                "location": "Penybont",
+                "mpan": "2100041707899",
+                "msid": null,
+                "spv": {
+                  "name": "HENDY WIND FARM LIMITED",
+                  "__typename": "SPV"
+                },
+                "voltage": 66,
+                "rocBand": 0.9,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": true,
+              "roc": "FIXED",
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["WIND"],
+          "totalCapacity": 14.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        }
+      ],
+      "pageInfo": {
+        "nextToken": "e9850cd6-79f0-4386-9cc7-d93a0fd3cbc3",
+        "__typename": "PageInfo"
+      },
+      "__typename": "InvitationsToTenderConnection"
+    }
+  }
+}

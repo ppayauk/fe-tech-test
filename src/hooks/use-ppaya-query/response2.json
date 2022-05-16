@@ -1,0 +1,144 @@
+{
+  "data": {
+    "invitationToTenderList": {
+      "invitationsToTender": [
+        {
+          "id": "873c5b3e-d83c-4814-b1b4-96f352ba3279",
+          "generator": {
+            "name": "gen without number",
+            "ppayaBrokerFee": 0,
+            "__typename": "Generator"
+          },
+          "tenderName": "fetch more tender 1",
+          "tender": {
+            "id": "86cd5e8a-5828-11ec-b348-535012267fb7",
+            "name": "Second page tender 1",
+            "status": "ACTIVE",
+            "startDate": "2021-12-24",
+            "endDate": "2022-06-30",
+            "indicativeDeadline": null,
+            "periods": [
+              {
+                "startDate": "2021-12-24",
+                "endDate": "2022-06-30",
+                "priceType": "FIXED_AVERAGED",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "81a613c1-5828-11ec-9b67-a187c5e4b37a",
+                "name": "test",
+                "capacity": 2.0,
+                "technology": "SOLAR",
+                "location": "test",
+                "mpan": null,
+                "msid": "",
+                "spv": { "name": "test", "__typename": "SPV" },
+                "voltage": 22,
+                "rocBand": null,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["SOLAR"],
+          "totalCapacity": 2.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        },
+        {
+          "id": "fc918a57-7726-4fcc-8df9-6769305cd595",
+          "generator": {
+            "name": "PPAYA LIMITED",
+            "ppayaBrokerFee": null,
+            "__typename": "Generator"
+          },
+          "tenderName": "fetch more tender 1",
+          "tender": {
+            "id": "22f6ffa7-58f2-11ec-9bf5-89c2b986c40e",
+            "name": "Second page tender 2",
+            "status": "ACTIVE",
+            "startDate": "2021-12-31",
+            "endDate": "2022-06-30",
+            "indicativeDeadline": "2022-01-06T13:00:00+00:00",
+            "periods": [
+              {
+                "startDate": "2021-12-31",
+                "endDate": "2022-03-31",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              },
+              {
+                "startDate": "2022-04-01",
+                "endDate": "2022-06-30",
+                "priceType": "FIXED_SEASONAL",
+                "__typename": "TenderPeriod"
+              }
+            ],
+            "sites": [
+              {
+                "id": "ecf419f5-ba34-11eb-a503-a12ba1f95e2b",
+                "name": "My First Site",
+                "capacity": 3.0,
+                "technology": "SOLAR",
+                "location": "My address",
+                "mpan": "1111122222333",
+                "msid": null,
+                "spv": null,
+                "voltage": 10,
+                "rocBand": 1.5,
+                "hhdKey": null,
+                "__typename": "Site"
+              }
+            ],
+            "subsidies": {
+              "fit": false,
+              "roc": null,
+              "rego": null,
+              "__typename": "TenderSubsidies"
+            },
+            "embeddedBenefits": {
+              "gduos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "bsuos": {
+                "benefitType": "FIXED",
+                "__typename": "TenderEmbeddedBenefit"
+              },
+              "__typename": "TenderEmbeddedBenefits"
+            },
+            "otherRequirements": "",
+            "__typename": "Tender"
+          },
+          "technologies": ["SOLAR"],
+          "totalCapacity": 3.0,
+          "status": "ACTIVE",
+          "__typename": "InvitationToTender"
+        }
+      ],
+      "pageInfo": { "nextToken": null, "__typename": "PageInfo" },
+      "__typename": "InvitationsToTenderConnection"
+    }
+  }
+}
